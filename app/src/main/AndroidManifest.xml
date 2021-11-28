@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TiendaCoffee">
         <activity
+            android:name=".PedidoOFacturacion"
+            android:exported="false" />
+        <activity
+            android:name=".comentarios_y_pedidos"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
